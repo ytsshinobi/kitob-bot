@@ -1,0 +1,1 @@
+9999999999{"name": "aiofiles", "version": "23.1.0", "summary": "File support for asyncio.", "platform": null, "requires_dist": null, "requires_python": ">=3.7,<4.0", "files": [], "_cache_version": "1.0.0"}

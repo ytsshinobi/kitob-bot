@@ -1,0 +1,1 @@
+9999999999{"name": "pydantic", "version": "2.3.0", "summary": "Data validation using Python type hints", "platform": null, "requires_dist": ["annotated-types>=0.4.0", "pydantic-core==2.6.3", "typing-extensions>=4.6.1", "email-validator>=2.0.0; extra == 'email'"], "requires_python": ">=3.7", "files": [], "_cache_version": "1.0.0"}
