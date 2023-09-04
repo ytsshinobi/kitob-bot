@@ -9,7 +9,7 @@ dp = Dispatcher(bot)
 
 admin_ids = ['6173245050', '6390512871',
              '1218800347']  # Add your admin IDs here
-WEB_SERVER_URL = 
+VERCEL_SERVERLESS_FUNCTION_URL = 
 
 # Create the database files if they don't exist
 conn = sqlite3.connect('books.db')
@@ -234,6 +234,6 @@ if __name__ == '__main__':
 
   PORT = int(os.environ.get('PORT', 5000))
 
-  updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=API_TOKEN)
-
-  updater.bot.setWebhook("WEB_SERVER_URL" + API_TOKEN)
+  updater.start_webhook(listen="0.0.0.0", port=PORT, url_path="6657019188:AAFZqixuGXeUpFZ4vQR2S3vlww40oLrVuDs")
+updater.bot.setWebhook("VERCEL_SERVERLESS_FUNCTION_URL" + "6657019188:AAFZqixuGXeUpFZ4vQR2S3vlww40oLrVuDs")
+updater.idle()
