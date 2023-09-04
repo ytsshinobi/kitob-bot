@@ -4,9 +4,9 @@ import sqlite3
 import os
 from telegram import Bot
 
-API_TOKEN = '6657019188:AAFZqixuGXeUpFZ4vQR2S3vlww40oLrVuDs'
-bot = Bot(token=API_TOKEN)
-dp = Dispatcher(bot)
+PORT = int(os.environ.get('PORT', '5000'))
+bot = Bot(token="6657019188:AAFZqixuGXeUpFZ4vQR2S3vlww40oLrVuDs")
+bot.setWebhook("YOUR_VERCEL_SERVERLESS_FUNCTION_URL_HERE" + "6657019188:AAFZqixuGXeUpFZ4vQR2S3vlww40oLrVuDs")
 
 admin_ids = ['6173245050', '6390512871',
              '1218800347']  # Add your admin IDs here
