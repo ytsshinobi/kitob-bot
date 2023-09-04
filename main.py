@@ -9,6 +9,7 @@ dp = Dispatcher(bot)
 
 admin_ids = ['6173245050', '6390512871',
              '1218800347']  # Add your admin IDs here
+WEB_SERVER_URL = 
 
 # Create the database files if they don't exist
 conn = sqlite3.connect('books.db')
@@ -235,4 +236,4 @@ if __name__ == '__main__':
 
   updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=API_TOKEN)
 
-  updater.bot.setWebhook("" + API_TOKEN)
+  updater.bot.setWebhook("WEB_SERVER_URL" + API_TOKEN)
