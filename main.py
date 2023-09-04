@@ -2,6 +2,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 import sqlite3
 import os
+from telegram import Bot
 
 API_TOKEN = '6657019188:AAFZqixuGXeUpFZ4vQR2S3vlww40oLrVuDs'
 bot = Bot(token=API_TOKEN)
